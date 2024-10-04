@@ -2,7 +2,7 @@ version: "3"
 services:
   book_catalog:
     build:
-      context: ./book_catalog # Uses the Dockerfile in the book_catalog directory
+      context: ./book_catalog 
     container_name: book_catalog
     ports:
       - "8001:8000"
@@ -11,7 +11,7 @@ services:
 
   inventory_management:
     build:
-      context: ./inventory_management # Uses the Dockerfile in the inventory_management directory
+      context: ./inventory_management 
     container_name: inventory_management
     ports:
       - "8002:8000"
