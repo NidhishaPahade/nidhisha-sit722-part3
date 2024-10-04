@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: book-catalog
-        image: nidhisha7599pahade/book-catalog:1
+        image: nidhisha.azurecr.io/book-catalog:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
       - name: inventory-management
-        image: nidhisha7599pahade/inventory-management:1
+        image: nidhisha.azure.io/inventory-management:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
